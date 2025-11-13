@@ -1,9 +1,7 @@
 <div class="flex justify-center my-12">
     <h1 class="text-[4rem] font-extrabold">
         با شفّافیت انتخاب کن
-
         <br />
-
         با دانــــش رشــــد کن
     </h1>
 </div>
