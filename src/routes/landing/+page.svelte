@@ -1,1 +1,9 @@
-landing ...
+<div class="text-6xl text-center my-3 font-thin">استــــادبــــان</div>
+<div class="text-6xl text-center my-3 font-extralight">استــــادبــــان</div>
+<div class="text-6xl text-center my-3 font-light">استــــادبــــان</div>
+<div class="text-6xl text-center my-3 font-normal">استــــادبــــان</div>
+<div class="text-6xl text-center my-3 font-medium">استــــادبــــان</div>
+<div class="text-6xl text-center my-3 font-semibold">استــــادبــــان</div>
+<div class="text-6xl text-center my-3 font-bold">استــــادبــــان</div>
+<div class="text-6xl text-center my-3 font-extrabold">استــــادبــــان</div>
+<div class="text-6xl text-center my-3 font-black">استــــادبــــان</div>
