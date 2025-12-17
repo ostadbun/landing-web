@@ -5,6 +5,7 @@
 	import { ModeWatcher } from "mode-watcher";
 	import Nav from "./components/Navbar/nav.svelte";
 	import { page } from "$app/state";
+    import Button from "$lib/components/ui/button/button.svelte";
 
 	let { children } = $props();
 </script>
