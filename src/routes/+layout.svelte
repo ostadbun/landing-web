@@ -3,7 +3,7 @@
 	import faviconL from "$lib/assets/favicon-light.svg";
 	import faviconD from "$lib/assets/favicon-dark.svg";
 	import { ModeWatcher } from "mode-watcher";
-	import Nav from "./components/Navbar/nav.svelte";
+	import Nav from "../components/Navbar/nav.svelte";
 	import { page } from "$app/state";
 
 	let { children } = $props();
