@@ -6,21 +6,11 @@
     import Vote from "@lucide/svelte/icons/vote";
     import Input from "$lib/components/ui/input/input.svelte";
     import * as ToggleGroup from "$lib/components/ui/toggle-group/index";
-    import {
-        BookmarkIcon,
-        HeartIcon,
-        StarIcon,
-        Check,
-        BoldIcon,
-        ItalicIcon,
-        UnderlineIcon,
-    } from "lucide-svelte";
+    import { StarIcon } from "lucide-svelte";
 
     import { Badge } from "$lib/components/ui/badge/index.js";
-    import BadgeCheckIcon from "@lucide/svelte/icons/badge-check";
-
     import * as Card from "$lib/components/ui/card/index.js";
-    import * as Carousel from "$lib/components/ui/carousel/index.js";
+    import Hero from "../components/hero/hero.svelte";
     const description =
         " استادبان یک سیستم متن‌باز و رایگان است که با جمع‌آوری نظرات دانشجویان درباره اساتید، به انتخاب واحد آگاهانه‌تر کمک می‌کند و شفافیت آموزشی را افزایش می‌دهد.";
 
@@ -137,11 +127,15 @@
             description: "مدیریت و بهینه‌سازی سیستم‌ها",
         },
     ];
-
-    function show() {
-        alert("alehfu");
-    }
 </script>
+
+<div
+    class="absolute w-full mx-auto h-dvh top-0 flex items-start justify-center"
+>
+    <div class="w-7xl opacity-65">
+        <Hero />
+    </div>
+</div>
 
 <div class="heroSection flex flex-wrap flex-col items-center justify-around">
     <div class="flex flex-wrap gap-8">
@@ -181,7 +175,7 @@
     </div>
 </div>
 
-<div class="h-[.003rem] w-10/12 bg-amber-50/10 mx-auto"></div>
+<div class="h-[.003rem] w-8/12 bg-amber-50/10 mx-auto"></div>
 
 <div class="h-dvh">
     <div class="flex justify-center flex-wrap gap-8 mt-48">
@@ -207,7 +201,9 @@
         </div>
     </div>
 
-    <div class="w-10/12 flex gap-8 mt-16 mx-auto justify-center flex-wrap max-h-160 overflow-y-scroll">
+    <div
+        class="w-8/12 flex gap-8 mt-16 mx-auto justify-center flex-wrap max-h-160 overflow-y-scroll"
+    >
         {#each search as i}
             <Card.Root class="w-88">
                 <Card.Header>
