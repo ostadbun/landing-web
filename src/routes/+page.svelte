@@ -153,7 +153,7 @@
         </div>
 
         <div class="flex w-full justify-center">
-            <h2 class="max-w-132 leading-8 text-center opacity-70 text-sm">
+            <h2 class="w-8/12 md:max-w-132 leading-8 text-center opacity-35 text-sm">
                 {description}
             </h2>
         </div>
@@ -182,12 +182,12 @@
         <div class="w-full flex justify-center flex-wrap gap-4">
             <div class="flex w-full justify-center" id="textdata">
                 <h2
-                    class="text-[2rem] sm:text-[3rem] md:text-[2rem] font-extrabold bg-linear-to-t from-[black]/60 to-[black] dark:from-[white]/60 dark:to-[pink]/30 text-transparent bg-clip-text"
+                    class="text-[2rem] sm:text-[3rem] md:text-[2rem] font-extrabold text-center bg-linear-to-t from-[black]/60 to-[black] dark:from-[white]/60 dark:to-[pink]/30 text-transparent bg-clip-text"
                 >
                     جــــســـــت و جــــو در بانک اطلاعات " استادبان "
                 </h2>
             </div>
-            <Input class="w-132 h-14" placeholder="جست و جوی ..." />
+            <Input class="w-8/12 md:w-132 h-14" placeholder="جست و جوی ..." />
         </div>
 
         <div class="" dir="ltr">
