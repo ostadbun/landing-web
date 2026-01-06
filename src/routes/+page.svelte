@@ -146,9 +146,9 @@
             <h1
                 class="text-[2rem] sm:text-[3rem] md:text-[3.5rem] font-extrabold bg-linear-to-b from-[black]/60 to-[black] dark:from-[white]/60 dark:to-[white]/10 text-transparent bg-clip-text"
             >
-                با شفّافیت انتخاب کن
+                با شفّــافیت انتخاب کن
                 <br />
-                با دانــــش رشــــد کن
+                با دانـــــــش رشـــــــد کن
             </h1>
         </div>
 

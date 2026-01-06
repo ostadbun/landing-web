@@ -3,8 +3,11 @@
 @import "tw-animate-css";
 
 * {
-    font-family: Vazirmatn;
+    font-family: AradVF;
+    /* font-feature-settings: "ss01"  , "ss04", "ss05", "swsh", "tnum","kern"; */
+
 }
+
 @custom-variant dark (&:is(.dark *));
 
 body {
@@ -132,6 +135,7 @@ html {
     * {
         @apply border-border outline-ring/50;
     }
+
     body {
         @apply bg-background text-foreground;
     }
