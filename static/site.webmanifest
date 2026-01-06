@@ -1,6 +1,6 @@
 {
-  "name": "استادبان",
-  "short_name": "استادبان",
+  "name": "ostadbun",
+  "short_name": "osbn",
   "description": "پلتفرم متن‌باز امتیازدهی به اساتید دانشگاه توسط دانشجویان",
   "start_url": "/",
   "display": "standalone",
