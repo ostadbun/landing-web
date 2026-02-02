@@ -6,13 +6,14 @@
     import Search from "@lucide/svelte/icons/search";
     import Logonavbar from "../icons/logonavbar.svelte";
     import Github from "../icons/github.svelte";
+    import { UserCircle } from "lucide-svelte";
 </script>
 
 <nav
     class="flex w-full items-center justify-between fixed right-0 top-0 z-50 bg-background/85 backdrop-blur-sm"
 >
     <div
-        class="w-11/12 flex items-center justify-between mx-auto h-20  px-8    z-50"
+        class="w-11/12 flex items-center justify-between mx-auto h-20 px-8 z-50"
     >
         <a href="/">
             <div class="flex items-center gap-3">
@@ -37,10 +38,10 @@
                 </Button>
             </a>
 
-            <a href="/universities" class="hidden md:block">
+            <a href="/auth" class="hidden md:block">
                 <Button variant="secondary" class="cursor-pointer gap-2">
-                    <Search />
-                    جست و جو
+                    <UserCircle />
+                    ورود
                 </Button>
             </a>
 
@@ -57,12 +58,8 @@
     </div>
 </nav>
 
-
-
 <!-- placeholder 5rem -->
 <div class="h-20 w-full"></div>
-
-
 
 <!-- gap 1.5rem-->
 <div class="h-6 w-full"></div>

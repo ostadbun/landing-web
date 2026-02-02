@@ -4,8 +4,16 @@
 
 * {
     font-family: AradVF;
-    /* font-feature-settings: "ss01"  , "ss04", "ss05", "swsh", "tnum","kern"; */
 
+    font-feature-settings: "ss01", "ss04", "ss05", "tnum", "kern", "rlig";
+
+    /*font-feature-settings:
+        "ss05",  leading
+        "ss01",  persian number
+        "ss04", rial symbol
+        "swsh",
+        "tnum",
+        "kern";*/
 }
 
 @custom-variant dark (&:is(.dark *));
