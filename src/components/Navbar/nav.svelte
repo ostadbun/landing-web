@@ -38,7 +38,7 @@
                 </Button>
             </a>
 
-            <a href="/auth" class="hidden md:block">
+            <a href="/auth" >
                 <Button variant="secondary" class="cursor-pointer gap-2">
                     <UserCircle />
                     ورود
