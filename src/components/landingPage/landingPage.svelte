@@ -130,14 +130,6 @@
     ];
 </script>
 
-<!-- <div
-    class="absolute w-full mx-auto h-dvh top-0 flex items-start justify-center"
->
-    <div class="w-7xl opacity-65">
-        <Hero />
-    </div>
-</div> -->
-
 <div class="heroSection flex flex-wrap flex-col items-center justify-around">
     <div class="flex flex-wrap gap-8">
         <div class=" w-full flex justify-center">
@@ -163,11 +155,13 @@
     </div>
 
     <div class="w-full flex justify-center gap-3">
-        <Button variant="secondary">
-            <Vote />
+        <a href="/auth">
+            <Button variant="secondary">
+                <Vote />
 
-            رای دهید
-        </Button>
+                رای دهید
+            </Button>
+        </a>
 
         <a href="#viewrates">
             <Button>
@@ -210,7 +204,9 @@
     <div
         class="
         my-8
-        w-11/12 max-w-[80rem]
+        w-11/12 max-w-7xl
+
+        max-h-152 overflow-y-scroll
         mx-auto md:w-8/12
         grid
                 grid-cols-1
