@@ -44,7 +44,7 @@
                 <p
                     class="font-extrabold text-center text-4xl dark:text-gray-200 absolute translate-y-5 w-full text-gray-700"
                 >
-                    استادبان
+                    اُستادبان
                 </p>
             </div>
 
@@ -72,7 +72,7 @@
             class="flex flex-col items-center w-full md:w-6/12 gap-y-12 justify-center"
         >
             <h1 class="w-full text-center text-2xl font-black">
-                روش های ورود به استادبان
+                روش های ورود به اُستادبان
             </h1>
             <div class="w-full flex flex-col gap-y-3">
                 {#each providers as p}

@@ -14,7 +14,7 @@
     <link href={faviconD} rel="icon" media="(prefers-color-scheme: dark)" />
 
     <title
-        >استادبان{page.data.segmentTitle &&
+        >اُستادبان{page.data.segmentTitle &&
             " | " + page.data.segmentTitle}</title
     >
 </svelte:head>
