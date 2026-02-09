@@ -128,12 +128,14 @@
         <div class="w-full flex justify-center flex-wrap gap-4">
             <div class="flex w-full justify-center" id="textdata">
                 <h2
-                    class="w-8/12 text-[2rem] sm:text-[3rem] md:text-[2rem] font-extrabold text-center bg-linear-to-t from-[black]/60 to-[black] dark:from-[white]/60 dark:to-[pink]/30 text-transparent bg-clip-text"
+                    class=" text-[2rem] sm:text-[3rem] md:text-[2rem] font-extrabold text-center bg-linear-to-t from-[black]/60 to-[black] dark:from-[white]/60 dark:to-[pink]/30 text-transparent bg-clip-text"
                 >
-                    جــــســـــت و جــــو در بانک اطلاعات " استادبان "
+                 جــــســـــت و جــــو در بانک اطلاعاتِ
+                    <br>
+                    " اُستادبان "
                 </h2>
             </div>
-            <Input class="w-8/12 md:w-132 h-14" placeholder="جست و جوی ..." />
+            <Input class="max-w-132 h-14" placeholder="جست و جوی ..." />
         </div>
 
         <div class="" dir="ltr">
@@ -150,10 +152,10 @@
     <div
         class="
         my-8
-        w-11/12 max-w-7xl
+ max-w-7xl
 
         max-h-152 overflow-y-scroll
-        mx-auto md:w-8/12
+        mx-auto 
         grid
                 grid-cols-1
                 sm:grid-cols-2

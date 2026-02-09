@@ -153,7 +153,7 @@
     <!-- <h2
         class="w-10/12 text-[2rem] sm:text-[3rem] md:text-[2rem] font-extrabold text-center bg-linear-to-t from-[black]/60 to-[black] dark:from-[white]/60 dark:to-[pink]/30 text-transparent bg-clip-text"
     >
-        استادبان، منبع باز است
+        اُستادبان، منبع باز است
     </h2> -->
 
     {#each mqr as innMqr, index}

@@ -7,6 +7,7 @@
     import Logonavbar from "../icons/logonavbar.svelte";
     import Github from "../icons/github.svelte";
     import { UserCircle } from "lucide-svelte";
+    import Themetogglebutton from "../themeToggleButton/themetogglebutton.svelte";
 </script>
 
 <nav
@@ -20,7 +21,7 @@
                 <Logonavbar />
 
                 <h1 class="text-[1.5rem] font-extrabold opacity-65">
-                    استادبان
+                    اُستادبان
                 </h1>
             </div>
         </a>
@@ -45,7 +46,7 @@
                 </Button>
             </a>
 
-            <Button onclick={toggleMode} variant="ghost" size="icon">
+            <!-- <Button onclick={toggleMode} variant="ghost" size="icon">
                 <SunIcon
                     class="size-3.5 rotate-0 scale-100 transition-all! dark:-rotate-90 dark:scale-0"
                 />
@@ -53,7 +54,9 @@
                     class="absolute size-3.5 rotate-90 scale-0 transition-all! dark:rotate-0 dark:scale-100"
                 />
                 <span class="sr-only">Toggle theme</span>
-            </Button>
+            </Button> -->
+
+            <Themetogglebutton/>
         </div>
     </div>
 </nav>

@@ -5,7 +5,7 @@
     import Search from "@lucide/svelte/icons/search";
 
     const description =
-        " استادبان یک سیستم متن‌باز و رایگان است که با جمع‌آوری نظرات دانشجویان درباره اساتید، به انتخاب واحد آگاهانه‌تر کمک می‌کند و شفافیت آموزشی را افزایش می‌دهد.";
+        " اُستادبان یک سیستم متن‌باز و رایگان است که با جمع‌آوری نظرات دانشجویان درباره اساتید، به انتخاب واحد آگاهانه‌تر کمک می‌کند و شفافیت آموزشی را افزایش می‌دهد.";
 </script>
 
 <div class="heroSection flex flex-wrap flex-col items-center justify-around">
@@ -25,7 +25,7 @@
 
         <div class="flex w-full justify-center">
             <h2
-                class="w-8/12 md:max-w-132 leading-8 text-center opacity-35 text-sm"
+                class="w-8/12 md:max-w-132 leading-8 opacity-35 text-sm text-justify"
             >
                 {description}
             </h2>
