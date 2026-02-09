@@ -9,6 +9,7 @@
     import Contribute from "./sections/contribute.svelte";
     import Entities from "./sections/entities.svelte";
     import Hrcom from "../lineSpace/hrcom.svelte";
+    import Related from "./sections/related.svelte";
 
 
 
@@ -19,9 +20,11 @@
 
 <Hero />
 
-
 <Hrcom/>
 
+<Related/>
+
+<Hrcom/>
 
 <Entities/>
 
@@ -30,3 +33,5 @@
 <Contribute/>
 
 <Hrcom/>
+
+
