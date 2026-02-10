@@ -14,7 +14,7 @@
     });
 
     const providerUrl = (provider: string): string => {
-        return `https://jpjukqmcfgpwtlaehajo.supabase.co/auth/v1/authorize?provider=${provider}&redirect_to=http://localhost:4932/accept/`;
+        return `https://api.ostadbun.tech/user/oauth?provider=${provider}`;
     };
 
     const providers: {
