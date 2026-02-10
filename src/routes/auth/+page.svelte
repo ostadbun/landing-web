@@ -29,7 +29,7 @@
 
 <div class="w-full h-min-dvh h-dvh flex justify-center items-center">
     <div
-        class="flex-col md:flex-row flex md:border-[0.5px] dark:border-gray-600 rounded-xl justify-between md:justify-center w-10/12 h-10/12"
+        class="flex-col md:flex-row! flex md:border-[0.5px] dark:border-gray-600 rounded-xl justify-between md:justify-center w-10/12 h-10/12"
     >
         <!-- Left -->
         <div
