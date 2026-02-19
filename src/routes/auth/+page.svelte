@@ -14,7 +14,7 @@
     });
 
     const providerUrl = (provider: string): string => {
-        return `http://localhost:3000/user/oauth?provider=${provider}`;
+        return `https://api.ostadbun.tech/user/oauth?provider=${provider}`;
     };
 
     const providers: {
