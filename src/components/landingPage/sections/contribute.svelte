@@ -1,6 +1,7 @@
 <script>
     import Button from "$lib/components/ui/button/button.svelte";
-    import { InfoIcon } from "lucide-svelte";
+    import Vote from "@lucide/svelte/icons/vote";
+
     import Github from "../../icons/github.svelte";
     import GithubRe from "../../icons/githubRe.svelte";
 

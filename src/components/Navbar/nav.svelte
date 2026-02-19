@@ -32,14 +32,14 @@
                     <div
                         class="flex h-full items-center justify-center gap-0.5"
                     >
-                        <span class=" h-full leading-6"> 6 </span>
+                        <span class=" h-full opacity-65"> 8 هزار </span>
                     </div>
 
                     <Github />
                 </Button>
             </a>
 
-            <a href="/auth" >
+            <a href="/auth">
                 <Button variant="secondary" class="cursor-pointer gap-2">
                     <UserCircle />
                     ورود
@@ -56,7 +56,7 @@
                 <span class="sr-only">Toggle theme</span>
             </Button> -->
 
-            <Themetogglebutton/>
+            <Themetogglebutton />
         </div>
     </div>
 </nav>
