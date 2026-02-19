@@ -8,6 +8,29 @@
     import Github from "../icons/github.svelte";
     import { UserCircle } from "lucide-svelte";
     import Themetogglebutton from "../themeToggleButton/themetogglebutton.svelte";
+    import { onMount } from "svelte";
+    import { writable } from "svelte/store";
+
+    function getCookie(cname: string) {
+        let name = cname + "=";
+        let ca = document.cookie.split(";");
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) == " ") {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+
+    let username = "";
+
+    onMount(() => {
+        username = getCookie("username");
+    });
 </script>
 
 <nav
@@ -39,12 +62,25 @@
                 </Button>
             </a>
 
-            <a href="/auth">
-                <Button variant="secondary" class="cursor-pointer gap-2">
-                    <UserCircle />
-                    ورود
-                </Button>
-            </a>
+
+
+            {#if username == ""}
+                <a href="/auth">
+                    <Button variant="secondary" class="cursor-pointer gap-2">
+                        <UserCircle />
+                        ورود
+                    </Button>
+                </a>
+            {/if}
+
+            {#if username != ""}
+                <a href="http://app.ostadbun.tech/">
+                    <Button variant="secondary" class="cursor-pointer gap-2">
+                        <UserCircle />
+                        {username}
+                    </Button>
+                </a>
+            {/if}
 
             <!-- <Button onclick={toggleMode} variant="ghost" size="icon">
                 <SunIcon
